@@ -1,11 +1,5 @@
 ### Object Detection for Custom Dataset ###
 
-Implemented using Tensorflow - Object Detection - API 
-
-Works on both videos and images with minor modifications.
-
-![Image description](6.png)
-
 ## Task description: 
 
 Implement a prototype of a visual object detection system for a customer.
@@ -65,5 +59,7 @@ Then I go on to train our model using a pre-trained FasterRCNN with Inception v2
 
 Now, 
 find\_phone.py takes a single command line argument which is a path to the jpeg image to be tested. The output will be the center of the mobile phone in normalised co-ordinates.
+
+![Image description](6.png)
 
 I found the test result to be atmost 99.9\% accurate in multiple tests I ran over the days. Sometimes, the center of the phone with reflection on the screen is slightly deviated and not within the 0.05 distance, but is very close to it.
